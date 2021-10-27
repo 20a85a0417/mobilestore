@@ -1,0 +1,114 @@
+.cardbody{
+    border: 2px solid black;
+    padding: 1%;
+    margin: 2%;
+    font-size: 30px;
+    font-style: italic;
+    width: 300px;
+    background-color: aquamarine;
+    height: 800px;
+}
+s{
+    color: darkred;
+}
+p{
+    color:forestgreen;
+}
+u,h2{
+    color: indigo;
+}
+button{
+    color:ivory;
+    background-color: green;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    .cardbody{
+        border: 2px solid black;
+        padding: 1%;
+        margin: 2%;
+        font-size: 30px;
+        font-style: italic;
+        width: 300px;
+        background-color: aquamarine;
+        height: 800px;
+  
+    }
+    s{
+        color: darkred;
+    }
+    p{
+        color:forestgreen;
+    }
+    u,h2{
+        color: indigo;
+    }
+    button{
+        color:ivory;
+        background-color: green;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .cardbody{
+        border: 2px solid black;
+        padding: 1%;
+        margin: 2%;
+        font-size: 30px;
+        font-style: italic;
+        width: 300px;
+        background-color: aquamarine;
+        height: 800px;
+    }
+    s{
+        color: darkred;
+    }
+    p{
+        color:forestgreen;
+    }
+    u,h2{
+        color: indigo;
+    }
+    button{
+        color:ivory;
+        background-color: green;
+    }
+    .cardbody img{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
